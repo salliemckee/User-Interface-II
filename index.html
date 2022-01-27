@@ -2,30 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- meta tag here -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!--  fonts go here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/index.css" />
+    <title>User Interface II project</title>
   </head>
   <body>
     <div class="flexContainer">
       <header>
-        <!-- <img class="headerImg" src="style/headerbackground.jpg" /> -->
-
         <h1>Sallie McKee Sylvaine</h1>
         <nav class="navbar">
-          <button type="button"><a href="#">Home</a></button>
-          <button type="button"><a href="about.html">About</a></button>
-          <button type="button"><a href="projects.html">Projects</a></button>
-          <button type="button"><a href="contact.html">Contact</a></button>
+          <div class="links">
+            <a href="#">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
         </nav>
       </header>
       <div class="body1">
-        <img class="me" src="style/me.JPG" height="500" width="400" />
+        <img
+          class="me"
+          src="style/me.JPG"
+          alt="picture of Sallie, a person with short blonde hair, blue eyes, and glasses, standing in front of a painting of cherry blossoms on a light blue background"
+          height="500"
+          width="400"
+        />
         <div class="bio">
           <h2>Sallie McKee</h2>
-          <button class="button1" type="button">
-            <a class="projectTag" href="projects.html">My Projects</a>
+          <button
+            class="button1"
+            type="button"
+            onclick="window.location.href='projects.html'"
+          >
+            My Projects
           </button>
+
           <p class="p1">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -39,10 +66,31 @@
       </div>
 
       <section class="projects">
-        <img src="style/fine.jpeg" />
-        <img src="style/fine.jpeg" />
-        <img src="style/fine.jpeg" />
-        <img src="style/fine.jpeg" />
+        <div class="img-container">
+          <img
+            src="style/fine.jpeg"
+            alt="cartoon dog sitting at a table inside a burning house saying 'this is fine'"
+          />
+          <span>Spicy Project</span>
+        </div>
+        <div class="img-container">
+          <img
+            src="style/fine.jpeg"
+            alt="cartoon dog sitting at a table inside a burning house saying 'this is fine'"
+          /><span>Special Project</span>
+        </div>
+        <div class="img-container">
+          <img
+            src="style/fine.jpeg"
+            alt="cartoon dog sitting at a table inside a burning house saying 'this is fine'"
+          /><span>Silly Project</span>
+        </div>
+        <div class="img-container">
+          <img
+            src="style/fine.jpeg"
+            alt="cartoon dog sitting at a table inside a burning house saying 'this is fine'"
+          /><span>Serious Project</span>
+        </div>
       </section>
 
       <footer>
