@@ -1,1 +1,213 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* new code here */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  background-image: url("headerbackground.jpg");
+  padding: 1%;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1%;
+}
+
+.me {
+  display: flex;
+}
+.body1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2%;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin: 5px;
+}
+
+.button1 {
+  width: 10%;
+  height: 10%;
+  margin: 10px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+button {
+  background-color: lightgray;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footButton {
+  /* display: flex;
+  justify-content: center; */
+  /* padding: 1% 2%; */
+  width: 50%;
+  height: 50%;
+}
+
+.linkedIn {
+  width: 50%;
+  height: 50%;
+}
